@@ -1,0 +1,28 @@
+:root {
+  --spike-count: 10; /* Adjust this to control spike count */
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #a000ff;
+  text-align: center;
+  position: relative;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.zigzag {
+  display: block;
+  width: 100%;
+  height: 50px;
+}
