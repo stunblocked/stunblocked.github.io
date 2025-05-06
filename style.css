@@ -46,4 +46,12 @@ iframe {
   border-radius: 12px;  /* Makes the iframe corners rounded */
   overflow: hidden;     /* Ensures content respects border-radius */
 }
+img {
+  margin-right: 10px;
+}
+
+/* Optional: remove margin after the last image */
+img:last-child {
+  margin-right: 0;
+}
 
